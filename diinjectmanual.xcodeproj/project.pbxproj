@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B32474D29A6866400062315 /* DIExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32474C29A6866400062315 /* DIExt.swift */; };
 		1B7DB87C29A3FB3000C30E25 /* diinjectmanualApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB87B29A3FB3000C30E25 /* diinjectmanualApp.swift */; };
 		1B7DB87E29A3FB3000C30E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB87D29A3FB3000C30E25 /* ContentView.swift */; };
 		1B7DB88029A3FB3100C30E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7DB87F29A3FB3100C30E25 /* Assets.xcassets */; };
 		1B7DB88329A3FB3100C30E25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7DB88229A3FB3100C30E25 /* Preview Assets.xcassets */; };
+		1B7DB89529A3FDB100C30E25 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB88F29A3FDB100C30E25 /* DataExt.swift */; };
+		1B7DB89729A3FDB100C30E25 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB89229A3FDB100C30E25 /* LoadingView.swift */; };
+		1B7DB89829A3FDB100C30E25 /* amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7DB89429A3FDB100C30E25 /* amiibo.json */; };
+		1B7DB8B129A3FDCE00C30E25 /* AmiiboSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB89C29A3FDCE00C30E25 /* AmiiboSimple.swift */; };
+		1B7DB8B229A3FDCE00C30E25 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB89E29A3FDCE00C30E25 /* HomePresenter.swift */; };
+		1B7DB8B329A3FDCE00C30E25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8A029A3FDCE00C30E25 /* HomeView.swift */; };
+		1B7DB8B429A3FDCE00C30E25 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8A229A3FDCE00C30E25 /* HomeInteractor.swift */; };
+		1B7DB8B529A3FDCE00C30E25 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8A329A3FDCE00C30E25 /* Viagem.swift */; };
+		1B7DB8B629A3FDCE00C30E25 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8A529A3FDCE00C30E25 /* HomeRouter.swift */; };
+		1B7DB8B729A3FDCE00C30E25 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8A829A3FDCE00C30E25 /* Amiibo.swift */; };
+		1B7DB8B829A3FDCE00C30E25 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8AA29A3FDCE00C30E25 /* DetailsPresenter.swift */; };
+		1B7DB8B929A3FDCE00C30E25 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8AC29A3FDCE00C30E25 /* DetailView.swift */; };
+		1B7DB8BA29A3FDCE00C30E25 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8AE29A3FDCE00C30E25 /* DetailsInteractor.swift */; };
+		1B7DB8BB29A3FDCE00C30E25 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DB8B029A3FDCE00C30E25 /* DetailsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B32474C29A6866400062315 /* DIExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIExt.swift; sourceTree = "<group>"; };
+		1B32474E29A6901600062315 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B7DB87829A3FB3000C30E25 /* diinjectmanual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diinjectmanual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7DB87B29A3FB3000C30E25 /* diinjectmanualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diinjectmanualApp.swift; sourceTree = "<group>"; };
 		1B7DB87D29A3FB3000C30E25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B7DB87F29A3FB3100C30E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7DB88229A3FB3100C30E25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B7DB88F29A3FDB100C30E25 /* DataExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
+		1B7DB89229A3FDB100C30E25 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1B7DB89429A3FDB100C30E25 /* amiibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amiibo.json; sourceTree = "<group>"; };
+		1B7DB89C29A3FDCE00C30E25 /* AmiiboSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmiiboSimple.swift; sourceTree = "<group>"; };
+		1B7DB89E29A3FDCE00C30E25 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1B7DB8A029A3FDCE00C30E25 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B7DB8A229A3FDCE00C30E25 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		1B7DB8A329A3FDCE00C30E25 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		1B7DB8A529A3FDCE00C30E25 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		1B7DB8A829A3FDCE00C30E25 /* Amiibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		1B7DB8AA29A3FDCE00C30E25 /* DetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		1B7DB8AC29A3FDCE00C30E25 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1B7DB8AE29A3FDCE00C30E25 /* DetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		1B7DB8B029A3FDCE00C30E25 /* DetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +66,7 @@
 		1B7DB86F29A3FB3000C30E25 = {
 			isa = PBXGroup;
 			children = (
+				1B32474E29A6901600062315 /* README.md */,
 				1B7DB87A29A3FB3000C30E25 /* diinjectmanual */,
 				1B7DB87929A3FB3000C30E25 /* Products */,
 			);
@@ -51,6 +83,8 @@
 		1B7DB87A29A3FB3000C30E25 /* diinjectmanual */ = {
 			isa = PBXGroup;
 			children = (
+				1B7DB89929A3FDCE00C30E25 /* feature */,
+				1B7DB88E29A3FDB100C30E25 /* core */,
 				1B7DB87B29A3FB3000C30E25 /* diinjectmanualApp.swift */,
 				1B7DB87D29A3FB3000C30E25 /* ContentView.swift */,
 				1B7DB87F29A3FB3100C30E25 /* Assets.xcassets */,
@@ -65,6 +99,147 @@
 				1B7DB88229A3FB3100C30E25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B7DB88E29A3FDB100C30E25 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB88F29A3FDB100C30E25 /* DataExt.swift */,
+				1B7DB89129A3FDB100C30E25 /* Components */,
+				1B7DB89329A3FDB100C30E25 /* Assets */,
+				1B32474C29A6866400062315 /* DIExt.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		1B7DB89129A3FDB100C30E25 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89229A3FDB100C30E25 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1B7DB89329A3FDB100C30E25 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89429A3FDB100C30E25 /* amiibo.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1B7DB89929A3FDCE00C30E25 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89A29A3FDCE00C30E25 /* home */,
+				1B7DB8A629A3FDCE00C30E25 /* details */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		1B7DB89A29A3FDCE00C30E25 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89B29A3FDCE00C30E25 /* entity */,
+				1B7DB89D29A3FDCE00C30E25 /* presenter */,
+				1B7DB89F29A3FDCE00C30E25 /* view */,
+				1B7DB8A129A3FDCE00C30E25 /* interactor */,
+				1B7DB8A429A3FDCE00C30E25 /* router */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1B7DB89B29A3FDCE00C30E25 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89C29A3FDCE00C30E25 /* AmiiboSimple.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		1B7DB89D29A3FDCE00C30E25 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB89E29A3FDCE00C30E25 /* HomePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		1B7DB89F29A3FDCE00C30E25 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8A029A3FDCE00C30E25 /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B7DB8A129A3FDCE00C30E25 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8A229A3FDCE00C30E25 /* HomeInteractor.swift */,
+				1B7DB8A329A3FDCE00C30E25 /* Viagem.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		1B7DB8A429A3FDCE00C30E25 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8A529A3FDCE00C30E25 /* HomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		1B7DB8A629A3FDCE00C30E25 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8A729A3FDCE00C30E25 /* entity */,
+				1B7DB8A929A3FDCE00C30E25 /* presenter */,
+				1B7DB8AB29A3FDCE00C30E25 /* view */,
+				1B7DB8AD29A3FDCE00C30E25 /* interactor */,
+				1B7DB8AF29A3FDCE00C30E25 /* router */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		1B7DB8A729A3FDCE00C30E25 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8A829A3FDCE00C30E25 /* Amiibo.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		1B7DB8A929A3FDCE00C30E25 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8AA29A3FDCE00C30E25 /* DetailsPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		1B7DB8AB29A3FDCE00C30E25 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8AC29A3FDCE00C30E25 /* DetailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B7DB8AD29A3FDCE00C30E25 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8AE29A3FDCE00C30E25 /* DetailsInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		1B7DB8AF29A3FDCE00C30E25 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DB8B029A3FDCE00C30E25 /* DetailsRouter.swift */,
+			);
+			path = router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7DB89829A3FDB100C30E25 /* amiibo.json in Resources */,
 				1B7DB88329A3FB3100C30E25 /* Preview Assets.xcassets in Resources */,
 				1B7DB88029A3FB3100C30E25 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +313,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7DB8B729A3FDCE00C30E25 /* Amiibo.swift in Sources */,
+				1B7DB8BA29A3FDCE00C30E25 /* DetailsInteractor.swift in Sources */,
 				1B7DB87E29A3FB3000C30E25 /* ContentView.swift in Sources */,
+				1B7DB8B529A3FDCE00C30E25 /* Viagem.swift in Sources */,
+				1B32474D29A6866400062315 /* DIExt.swift in Sources */,
+				1B7DB8B329A3FDCE00C30E25 /* HomeView.swift in Sources */,
+				1B7DB8B129A3FDCE00C30E25 /* AmiiboSimple.swift in Sources */,
+				1B7DB8B429A3FDCE00C30E25 /* HomeInteractor.swift in Sources */,
+				1B7DB89729A3FDB100C30E25 /* LoadingView.swift in Sources */,
+				1B7DB8B929A3FDCE00C30E25 /* DetailView.swift in Sources */,
+				1B7DB8B229A3FDCE00C30E25 /* HomePresenter.swift in Sources */,
+				1B7DB89529A3FDB100C30E25 /* DataExt.swift in Sources */,
 				1B7DB87C29A3FB3000C30E25 /* diinjectmanualApp.swift in Sources */,
+				1B7DB8B629A3FDCE00C30E25 /* HomeRouter.swift in Sources */,
+				1B7DB8BB29A3FDCE00C30E25 /* DetailsRouter.swift in Sources */,
+				1B7DB8B829A3FDCE00C30E25 /* DetailsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
